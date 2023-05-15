@@ -10,7 +10,6 @@
     --cor-de-destaque-sec: #fff;
     --cor-cards:  rgba(206, 174, 174, 0.678);
 }
-
 /*--------------------
         navbar
  ---------------------*/
@@ -365,6 +364,7 @@ span{
         display: none;
     }
     .text-sec h1{
+        margin-top: 30px;
         margin-left: 20px;
         font-size: 40px;
     }
@@ -376,20 +376,42 @@ span{
         margin-left: 10px;
     }
     .find{
-        position: absolute;
-        top: 550px;
-        left: 50px;
+        margin-top: 20px;
+        width: 65%;
         z-index: -1;
     }
     .text-sec p{
         font-size: 20px;
     }
 }
-@media screen and (min-width: 282px) and (max-width: 499px){
+@media screen and (min-width: 282px) and (max-width: 360px){
     .img-sec{
         display: none;
     }
     .text-sec h1{
+        margin-top: 35px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .text-sec p{
+        margin-left: 20px;
+    }
+    .order{
+        margin-left: 10px;
+    }
+    .find{
+        margin-left: 20px;
+    }
+    .text-sec p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 499px){
+    .img-sec{
+        display: none;
+    }
+    .text-sec h1{
+        margin-top: 35px;
         margin-left: 20px;
         font-size: 40px;
     }
@@ -397,7 +419,7 @@ span{
         margin-left: 20px;
     }
     .find, .order{
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .text-sec p{
         font-size: 20px;
@@ -408,6 +430,7 @@ span{
         display: none;
     }
     .text-sec h1{
+        margin-top: 30px;
         margin-left: 13%;
         font-size: 40px;
     }
@@ -426,6 +449,7 @@ span{
         display: none;
     }
     .text-sec h1{
+        margin-top: 30px;
         margin-left: 25%;
         font-size: 50px;
     }
@@ -982,39 +1006,21 @@ span{
     cards/main
 ------------------------ */
 main{
-    display: none;
-}
-main.main-on{
     display: block;
     width: 100%;
     height: 100vh;
 }
-.img1-coffe ,.img2-coffe ,.img3-coffe{
-    width: 450px;
-    height: 350px;
-    position: absolute;
-}
-.img1-coffe{
-    left: 50px;
-    top: 710px;
-    z-index: -1;
-}
-.img2-coffe{
-    left: 450px;
-    top: 730px;
-    z-index: -1;
-}.img3-coffe{
-    left: 820px;
-    top: 720px;
-    z-index: -1;
-}
+
 #cards-option1{
-    width: 80%;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 100px auto;
+    margin: 200px auto;
     gap: 20px;
+    background: url("mike-kenneally-TD4DBagg2wE-unsplash.jpg") no-repeat center/cover;
+    overflow: hidden;
 }
 #cards-option1.cards-option1-off{
     display: none;
@@ -1029,7 +1035,7 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 27px;
-    margin-top: 200px;
+    margin-top: 10px;
     overflow: hidden;
 }
 .card1 img{
@@ -1048,7 +1054,8 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 27px;
-    margin-top: 200px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 .card2 img{
     width: 250px;
@@ -1064,7 +1071,8 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 25px;
-    margin-top: 200px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 .card3 img{
     width: 250px;
@@ -1074,6 +1082,9 @@ main.main-on{
 .card1-p , .card2-p, .card3-p , .card4-p , .card5-p , .card6-p{
     margin-top: 12px;
 }
+.sec-main-cards{
+    height: 100vh;
+}
 
 /* card option 2 */
 #cards-option2{
@@ -1081,12 +1092,14 @@ main.main-on{
 }
 #cards-option2.cards-option2-on{
     display: block;
-    width: 80%;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin: 100px auto;
+    margin: 200px auto;
     gap: 20px;
+    background: url("mike-kenneally-TD4DBagg2wE-unsplash.jpg") no-repeat center/cover;
 }
 .card4{
     border: 1px solid #000;
@@ -1098,7 +1111,8 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 27px;
-    margin-top: 200px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 .card4 img{
     width: 248px;
@@ -1115,7 +1129,8 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 27px;
-    margin-top: 200px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 .card5 img{
     width: 250px;
@@ -1132,7 +1147,8 @@ main.main-on{
     align-items: center;
     cursor: pointer;
     padding-bottom: 25px;
-    margin-top: 200px;
+    margin-top: 10px;
+    overflow: hidden;
 }
 .card6 img{
     width: 250px;
@@ -1146,22 +1162,23 @@ main.main-on{
 @media screen and (min-width: 200px) and (max-width: 767px){
     #cards-option1{
         display: block;
-        width: 80%;
+        width: 100%;
+        height: 120vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 150px;
     }
     #cards-option2.cards-option2-on{
         display: block;
-        display: block;
-        width: 80%;
+        width: 100%;
+        height: 120vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 150px;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1191,16 +1208,16 @@ main.main-on{
         font-size: 14px;
     }
     .card2, .card3, .card5, .card6{
-        margin-top: 40px;
+        margin-top: 0px;
     }
     .card1,.card2, .card3, .card4,.card5, .card6{
-        width: 220px;
+        width: 200px;
     }
     .sec-main-cards img{
-        width: 220px;
+        width: 250px;
         height: 140px;
     }
-    .img1-coffe ,.img2-coffe ,.img3-coffe{
+    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
         width: 100%;
         height: 250px;
     }
@@ -1214,26 +1231,31 @@ main.main-on{
     }.img3-coffe{
         left: 0;
         top: 1250px;
-    }
+    } */
 }
 @media screen and (min-width: 768px) and (max-width: 850px){
     #cards-option1{
         display: block;
-        width: 50%;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 300px;
     }
     #cards-option2.cards-option2-on{
         display: block;
-        width: 50%;
+        width: 100%;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 300px;
+    }
+    .sec-main-cards{
+        height: 100vh;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1263,10 +1285,10 @@ main.main-on{
         font-size: 15px;
     }
     .card1,.card2, .card3, .card4,.card5, .card6{
-        width: 270px;
+        width: 230px;
     }
     .sec-main-cards img{
-        width: 270px;
+        width: 300px;
         height: 140px;
     }
     .card2 img{
@@ -1274,9 +1296,9 @@ main.main-on{
     }
 
     .card2, .card3, .card5, .card6{
-        margin-top: 80px;
+        margin-top: 0px;
     }
-    .img1-coffe ,.img2-coffe ,.img3-coffe{
+    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
         width: 70%;
         height: 250px;
     }
@@ -1290,25 +1312,30 @@ main.main-on{
     }.img3-coffe{
         left: 100px;
         top: 1300px;
-    }
+    } */
 
 }
 @media screen and (min-width: 851px) and (max-width: 1200px){
     #cards-option1{
         display: block;
-        width: 80%;
+        width: 100%;
+        height: 60vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 220px;
     }
     #cards-option2.cards-option2-on{
         display: block;
-        width: 80%;
+        width: 100%;
+        height: 60vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 220px ;
+    }
+    .sec-main-cards{
+        height: 60vh;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1346,7 +1373,7 @@ main.main-on{
     .card2 img{
         height: 140px;
     }
-    .img1-coffe ,.img2-coffe ,.img3-coffe{
+    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
         width: 100%;
         height: 480px;
     }
@@ -1362,25 +1389,30 @@ main.main-on{
         left: 700px;
         top: 710px;
         display: none;
-    }
+    } */
 
 }
 @media screen and (min-width: 1201px) and (max-width: 1280px){
     #cards-option1{
         display: block;
-        width: 80%;
+        width: 100%;
+        height: 70vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 200px;
     }
     #cards-option2.cards-option2-on{
         display: block;
-        width: 80%;
+        width: 100%;
+        height: 70vh;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        margin: 90px auto;
+        margin-top: 200px;
+    }
+    .sec-main-cards{
+        height: 70vh;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1418,32 +1450,37 @@ main.main-on{
     .card2 img{
         height: 140px;
     }
-    .img1-coffe ,.img2-coffe ,.img3-coffe{
-        width: 50%;
-        height: 480px;
-    }
-    .img1-coffe{
-        left: 0;
-        top: 640px;
-    }
-    .img2-coffe{
-        left: 550px;
-        top: 640px;
-    }.img3-coffe{
-        left: 700px;
-        top: 680px;
-        display: none;
-    }
 
 }
 @media screen and (min-width: 1501px) and (max-width: 3000px){
+    #cards-option1{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 320px;
+    }
+    #cards-option2.cards-option2-on{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 320px ;
+    }
+    .sec-main-cards{
+        height: 100vh;
+    }
     .card1,.card2, .card3, .card4,.card5, .card6{
-        width: 370px;
+        width: 300px;
         height: 400px;
     }
     .sec-main-cards img{
-        width: 370px;
-        height: 190px;
+        width: 300px;
+        height: 170px;
     }
     .sec-main-cards p{
         margin-bottom: 165px;
@@ -1452,7 +1489,7 @@ main.main-on{
     .sec-main-cards h1{
         font-size: 30px;
     }
-    .img1-coffe ,.img2-coffe ,.img3-coffe{
+    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
         width: 500px;
         height: 450px;
     }
@@ -1466,7 +1503,7 @@ main.main-on{
     }.img3-coffe{
         left: 1000px;
         top: 710px;
-    }
+    } */
 }
 
 
@@ -1476,7 +1513,7 @@ main.main-on{
 .informative{
     width: 100%;
     height: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .sec-informative-div{
     width: 100%;
@@ -1572,6 +1609,9 @@ main.main-on{
  responsive informative/main
 ------------------------ */
 @media screen and (min-width: 200px) and (max-width: 300px){
+    .informative{
+        margin-top: 100px;
+    }
     .sec-informative-div{
         height: 300px;
     }
@@ -1593,19 +1633,16 @@ main.main-on{
     }
     .content-iformative h2{
         font-size: 13px;
-        margin-left: 10px;
-        margin-top: 5px;
+        margin: 5px 5px;
     }
     .content-iformative p{
         width: 200px;
-        margin-left: 50px;
-        margin-top: 30px;
+        margin: 20px auto;
         font-size: 13px;
     }
     .informative-p.informative-p-on{
         width: 200px;
-        margin-left: 50px;
-        margin-top: 10px;
+        margin: 20px auto;
         font-size: 13px;
     }
     
@@ -1614,10 +1651,13 @@ main.main-on{
     }
     .info-social{
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 60px;
     }
 }
 @media screen and (min-width: 301px) and (max-width: 350px){
+    .informative{
+        margin-top: 90px;
+    }
     .sec-informative-div{
         height: 300px;
     }
@@ -1660,10 +1700,13 @@ main.main-on{
     }
     .info-social{
         margin-top: 30px;
-        margin-left: 90px;
+        margin-left: 100px;
     }
 }
 @media screen and (min-width: 351px) and (max-width: 510px){
+    .informative{
+        margin-top: 90px;
+    }
     .sec-informative-div{
         height: 300px;
     }
@@ -1675,28 +1718,26 @@ main.main-on{
     }
     .content-iformative{
         width: 100%;
-        height: 100%;
-        float: right;
     }
     .content-iformative h1{
         font-size: 25px;
-        margin-left: 60px;
+        margin-left: 12%;
         margin-top: 50px;
     }
     .content-iformative h2{
         font-size: 17px;
-        margin-left: 30px;
+        margin-left: 8%;
         margin-top: 5px;
     }
     .content-iformative p{
         width: 300px;
-        margin-left: 50px;
+        margin-left: 12%;
         margin-top: 20px;
         font-size: 13px;
     }
     .informative-p.informative-p-on{
         width: 300px;
-        margin-left: 50px;
+        margin-left: 12%;
         margin-top: 20px;
         font-size: 13px;
     }
@@ -1709,7 +1750,13 @@ main.main-on{
         margin-left: 120px;
     }
 }
-@media screen and (min-width: 511px) and (max-width: 679px){
+@media screen and (min-width: 511px) and (max-width: 767px){
+    .sec-informative-div{
+        height: 300px;
+    }
+    .informative{
+        margin-top: 90px;
+    }
     .sec-informative-div{
         height: 300px;
     }
@@ -1755,9 +1802,61 @@ main.main-on{
         margin-left: 200px;
     }
 }
-@media screen and (min-width: 680px) and (max-width: 859px){
+@media screen and (min-width: 768px) and (max-width: 798px){
+    .informative{
+        margin-top: 0px;
+    }
     .sec-informative-div{
-        height: 300px;
+        height: 400px;
+    }
+    .sec-informative-div.sec-informative-height{
+        height: 670px;
+    }
+    .sec-informative-div img{
+       display: none;
+    }
+    .content-iformative{
+        width: 100%;
+        height: 100%;
+        float: right;
+    }
+    .content-iformative h1{
+        font-size: 40px;
+        margin-left: 170px;
+        margin-top: 50px;
+    }
+    .content-iformative h2{
+        font-size: 25px;
+        margin-left: 140px;
+        margin-top: 5px;
+    }
+    .content-iformative p{
+        width: 500px;
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .informative-p.informative-p-on{
+        width: 500px;
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .content-iformative a{
+        font-size: 35px;
+    }
+    .info-social{
+        margin-top: 40px;
+        margin-left: 290px;
+    }
+}
+@media screen and (min-width: 789px) and (max-width: 859px){
+    .informative{
+        margin-top: 0px;
+    }
+    .sec-informative-div{
+        height: 400px;
     }
     .sec-informative-div.sec-informative-height{
         height: 670px;
@@ -1803,7 +1902,7 @@ main.main-on{
 }
 @media screen and (min-width: 860px) and (max-width: 1180px){
     .informative{
-        margin-top: 300px;
+        margin-top: 0px;
     }
     .sec-informative-div img{
         width: 450px;
@@ -1845,40 +1944,37 @@ main.main-on{
     }
 }
 @media screen and (min-width: 1181px) and (max-width: 1279px){
-    .sec-informative-div{
-        margin-top: 310px;
-        height: 650px;
-        width: 100%;
+    .informative{
+        margin-top: 0px;
     }
     .sec-informative-div img{
-      width: 50%;
+        width: 505;
     }
     .content-iformative{
-        width: 40%;
+        width: 410px;
         height: 100%;
-        float: right;
     }
     .content-iformative h1{
-        font-size: 35px;
-        margin-left: 50px;
+        font-size: 25px;
+        margin-left: 60px;
         margin-top: 50px;
     }
     .content-iformative h2{
-        font-size: 25px;
-        margin-left: 0px;
+        font-size: 17px;
+        margin-left: 30px;
         margin-top: 5px;
     }
     .content-iformative p{
         width: 400px;
-        margin-left: 70px;
+        margin-left: 00px;
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
     .informative-p.informative-p-on{
         width: 400px;
-        margin-left: 70px;
+        margin-left: 0px;
         margin-top: 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
     
     .content-iformative a{
@@ -1887,11 +1983,19 @@ main.main-on{
     }
     .info-social{
         margin-top: 40px;
-        margin-left: 130px;
+        margin-left: 50px;
     }
 }
 @media screen and (min-width: 1280px) and (max-width: 1350px){
+    .informative{
+        margin-top: 0px;
+    }
     .sec-informative-div img{
         width: 600px;
      }
+}
+@media screen and (min-width: 1351px) and (max-width: 3000px){
+    .informative{
+        margin-top: 0px;
+    }
 }

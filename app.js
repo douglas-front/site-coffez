@@ -48,14 +48,6 @@ const divCards2 = document.getElementById("cards-option2")
 
 
 /*------------------------------
-        click for more/header
---------------------------------*/
-const clickMore = document.getElementById("click-more")
-//main tag
-const main = document.getElementById("main")
-
-
-/*------------------------------
         informative(p button)/main
 --------------------------------*/
 const p_ButtonInformative = document.getElementById("p-button-info")
@@ -120,7 +112,7 @@ function cards (){
     divCards1.classList.toggle("cards-option1-off")
     divCards2.classList.toggle("cards-option2-on")
 }
-let time = setInterval(cards, 5000)
+let time = setInterval(cards, 10000)
 
 setTimeout(function(){
     clearInterval(time)
@@ -147,15 +139,6 @@ card5.addEventListener("click", ()=>{
 card6.addEventListener("click", ()=>{
     card6.classList.toggle("card6-on")
 })
-
-/*------------------------------
-    function (button for more)
---------------------------------*/
-clickMore.addEventListener("click", ()=>{
-    main.classList.add("main-on")
-})
-
-
 
 /*------------------------------
     function informative (p button)
