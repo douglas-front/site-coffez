@@ -1008,7 +1008,7 @@ span{
 main{
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #cards-option1{
@@ -1298,21 +1298,6 @@ main{
     .card2, .card3, .card5, .card6{
         margin-top: 0px;
     }
-    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
-        width: 70%;
-        height: 250px;
-    }
-    .img1-coffe{
-        left: 100px;
-        top: 710px;
-    }
-    .img2-coffe{
-        left: 100px;
-        top: 1000px;
-    }.img3-coffe{
-        left: 100px;
-        top: 1300px;
-    } */
 
 }
 @media screen and (min-width: 851px) and (max-width: 1200px){
@@ -1513,7 +1498,6 @@ main{
 .informative{
     width: 100%;
     height: 100%;
-    margin-top: 100px;
 }
 .sec-informative-div{
     width: 100%;
@@ -1905,7 +1889,7 @@ main{
         margin-top: 0px;
     }
     .sec-informative-div img{
-        width: 450px;
+        width: 500px;
     }
     .content-iformative{
         width: 410px;
@@ -1948,7 +1932,7 @@ main{
         margin-top: 0px;
     }
     .sec-informative-div img{
-        width: 505;
+        width: 505px;
     }
     .content-iformative{
         width: 410px;
@@ -1998,4 +1982,17 @@ main{
     .informative{
         margin-top: 0px;
     }
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #000000f5;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
 }
