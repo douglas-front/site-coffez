@@ -1010,10 +1010,9 @@ main{
     width: 100%;
     height: 100%;
 }
-
 #cards-option1{
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1034,7 +1033,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 27px;
     margin-top: 10px;
     overflow: hidden;
@@ -1053,7 +1051,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 27px;
     margin-top: 10px;
     overflow: hidden;
@@ -1070,7 +1067,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 25px;
     margin-top: 10px;
     overflow: hidden;
@@ -1084,8 +1080,11 @@ main{
     margin-top: 12px;
 }
 .sec-main-cards{
-    height: 100vh;
+    height: 500px;
     margin-bottom: 30px;
+}
+.sec-main-cards h1{
+    color: #000;
 }
 
 /* card option 2 */
@@ -1095,7 +1094,7 @@ main{
 #cards-option2.cards-option2-on{
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -1112,7 +1111,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 27px;
     margin-top: 10px;
     overflow: hidden;
@@ -1130,7 +1128,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 27px;
     margin-top: 10px;
     overflow: hidden;
@@ -1148,7 +1145,6 @@ main{
     border-radius: 20px;
     box-shadow: 2px 2px 7px 2px #000;
     align-items: center;
-    cursor: pointer;
     padding-bottom: 25px;
     margin-top: 10px;
     overflow: hidden;
@@ -1166,22 +1162,28 @@ main{
     #cards-option1{
         display: block;
         width: 100%;
-        height: 120vh;
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 150px;
+        border-radius: 30px;
     }
     #cards-option2.cards-option2-on{
         display: block;
         width: 100%;
-        height: 120vh;
+        height: 800px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 150px;
+        border-radius: 30px;
+    }
+    
+    .sec-main-cards{
+        height: 800px;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1225,25 +1227,27 @@ main{
     #cards-option1{
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 300px;
+        border-radius: 30px 30px 0 0;
     }
     #cards-option2.cards-option2-on{
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 300px;
+        border-radius: 30px 30px 0 0;
     }
     .sec-main-cards{
-        height: 100vh;
+        height: 1000px;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1292,7 +1296,7 @@ main{
     #cards-option1{
         display: block;
         width: 100%;
-        height: 60vh;
+        height: 500px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1301,14 +1305,14 @@ main{
     #cards-option2.cards-option2-on{
         display: block;
         width: 100%;
-        height: 60vh;
+        height: 40vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 220px ;
     }
     .sec-main-cards{
-        height: 60vh;
+        height: 500px;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1346,30 +1350,13 @@ main{
     .card2 img{
         height: 140px;
     }
-    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
-        width: 100%;
-        height: 480px;
-    }
-    .img1-coffe{
-        left: 0;
-        top: 650px;
-    }
-    .img2-coffe{
-        left: 550px;
-        top: 710px;
-        display: none;
-    }.img3-coffe{
-        left: 700px;
-        top: 710px;
-        display: none;
-    } */
 
 }
 @media screen and (min-width: 1201px) and (max-width: 1280px){
     #cards-option1{
         display: block;
         width: 100%;
-        height: 70vh;
+        height: 500px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1378,14 +1365,14 @@ main{
     #cards-option2.cards-option2-on{
         display: block;
         width: 100%;
-        height: 70vh;
+        height: 500px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 200px;
     }
     .sec-main-cards{
-        height: 70vh;
+        height: 500px;
     }
     .card1-p, .card2-p , .card3-p, .card4-p , .card5-p, .card6-p{
         display: none;
@@ -1429,7 +1416,7 @@ main{
     #cards-option1{
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 700px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1438,14 +1425,14 @@ main{
     #cards-option2.cards-option2-on{
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 700px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin-top: 320px ;
     }
     .sec-main-cards{
-        height: 100vh;
+        height: 700px;
     }
     .card1,.card2, .card3, .card4,.card5, .card6{
         width: 300px;
@@ -1462,21 +1449,6 @@ main{
     .sec-main-cards h1{
         font-size: 30px;
     }
-    /* .img1-coffe ,.img2-coffe ,.img3-coffe{
-        width: 500px;
-        height: 450px;
-    }
-    .img1-coffe{
-        left: 0;
-        top: 710px;
-    }
-    .img2-coffe{
-        left: 500px;
-        top: 710px;
-    }.img3-coffe{
-        left: 1000px;
-        top: 710px;
-    } */
 }
 
 
@@ -1491,11 +1463,12 @@ main{
     width: 100%;
     height: 500px;
     background: linear-gradient(60deg, #662e00 , #291201) no-repeat;
+    border-radius: 30px;
 }
 .sec-informative-div img{
     width: 50%;
     height: 100%;
-    border-radius: 0 0px 700px 0;
+    border-radius: 30px 0px 700px 30px;
 }
 .content-iformative{
     width: 673px;
@@ -1582,10 +1555,11 @@ main{
 ------------------------ */
 @media screen and (min-width: 200px) and (max-width: 300px){
     .informative{
-        margin-top: 150px;
+        margin-top: 15px;
     }
     .sec-informative-div{
         height: 300px;
+        border-radius: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 570px;
@@ -1628,10 +1602,11 @@ main{
 }
 @media screen and (min-width: 301px) and (max-width: 350px){
     .informative{
-        margin-top: 180px;
+        margin-top: 15px;
     }
     .sec-informative-div{
         height: 300px;
+        background: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 570px;
@@ -1677,10 +1652,11 @@ main{
 }
 @media screen and (min-width: 351px) and (max-width: 510px){
     .informative{
-        margin-top: 195px;
+        margin-top: 15px;
     }
     .sec-informative-div{
         height: 300px;
+        border-radius: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 570px;
@@ -1727,10 +1703,11 @@ main{
         height: 300px;
     }
     .informative{
-        margin-top: 180px;
+        margin-top: 50px;
     }
     .sec-informative-div{
         height: 300px;
+        border-radius: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 570px;
@@ -1741,7 +1718,7 @@ main{
     .content-iformative{
         width: 100%;
         height: 100%;
-        float: right;
+        margin-top: 30px;
     }
     .content-iformative h1{
         font-size: 25px;
@@ -1780,6 +1757,7 @@ main{
     }
     .sec-informative-div{
         height: 400px;
+        border-radius: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 670px;
@@ -1829,6 +1807,7 @@ main{
     }
     .sec-informative-div{
         height: 400px;
+        border-radius: 0px;
     }
     .sec-informative-div.sec-informative-height{
         height: 670px;
@@ -1872,12 +1851,55 @@ main{
         margin-left: 290px;
     }
 }
-@media screen and (min-width: 860px) and (max-width: 1180px){
+@media screen and (min-width: 860px) and (max-width: 1050px){
     .informative{
         margin-top: 0px;
     }
     .sec-informative-div img{
-        width: 500px;
+        width: 450px;
+    }
+    .content-iformative{
+        width: 410px;
+        height: 100%;
+    }
+    .content-iformative h1{
+        font-size: 25px;
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    .content-iformative h2{
+        font-size: 17px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    .content-iformative p{
+        width: 400px;
+        margin-left: 00px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .informative-p.informative-p-on{
+        width: 400px;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    .content-iformative a{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    .info-social{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 1051px) and (max-width: 1180px){
+    .informative{
+        margin-top: 0px;
+    }
+    .sec-informative-div img{
+        width: 550px;
     }
     .content-iformative{
         width: 410px;
@@ -1972,6 +1994,238 @@ main{
     }
 }
 
+/* ---------------------
+     cards-info/main
+------------------------ */
+.cards-info{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;;
+}
+.card-info1{
+    height: 300px;
+    background-color:  rgba(206, 174, 174, 0.733);
+    width: 300px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.card-info1:hover h1{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info1:hover{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info1 h1{
+    width: 100%;
+    background-color:  rgb(206, 174, 174);
+    font-size: 40px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px 90px 0px 90px; */
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    transition: all .3s ease-in-out;
+}
+.card-info1 i{
+    font-size: 35px;
+    margin: 30px 135px 0px 135px;
+}
+.card-info1 p{
+    word-wrap: break-word;
+    width: 250px;
+    margin:10px 40px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card-info2{
+    height: 300px;
+    background-color:  rgba(206, 174, 174, 0.733);
+    width: 300px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.card-info2:hover h1{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info2:hover{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info2 h1{
+     width: 100%;
+    background-color:  rgb(206, 174, 174);
+    font-size: 40px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    transition: all .3s ease-in-out;
+}
+.card-info2 i{
+    font-size: 35px;
+    margin: 30px 130px 0px 130px;
+}
+.card-info2 p{
+    word-wrap: break-word;
+    width: 290px;
+    margin:10px 40px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.card-info3{
+    height: 300px;
+    background-color:  rgba(206, 174, 174, 0.808);;
+    width: 300px;
+    color: #000000;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.card-info3:hover h1{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info3:hover{
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+.card-info3 h1{
+    width: 100%;
+    background-color:  rgb(206, 174, 174);
+    font-size: 40px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 20px 20px 0px 0px;
+    transition: all .3s ease-in-out;
+}
+.card-info3 i{
+    font-size: 35px;
+    margin: 30px 130px 0px 130px;
+}
+.card-info3 p{
+    word-wrap: break-word;
+    width: 290px;
+    margin:10px 40px;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* ---------------------
+ responsive cards-info/main
+------------------------ */
+@media screen and (min-width: 200px) and (max-width: 767px){
+    .cards-info{
+        flex-direction: column;
+        height: 900px;
+    }
+    .card-info1 , .card-info2 , .card-info3{
+        width: 250px;
+        height: 250px;
+    }
+    .card-info1 h1 , .card-info2 h1 , .card-info3 h1{
+        font-size: 30px;
+    }
+    .card-info1 p , .card-info2 p , .card-info3 p{
+        width: 200px;
+    }
+    .card-info1 i , .card-info2 i , .card-info3 i{
+        font-size: 30px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .cards-info{
+        flex-direction: column;
+        height: 1100px;
+    }
+}
+/* ---------------------
+     shop/main
+------------------------ */
+.sec-main-shop{
+    height: 500px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 30px;
+    background: url("toa-heftiba-QnUywvDdI1o-unsplash.jpg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-main-shop h1{
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.sec-main-shop p{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.sec-main-shop button{
+    margin-top: 40px;
+    padding: 20px 100px;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: transparent;
+    color: #000;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+.sec-main-shop button:hover{
+    background: #000;
+    color: #fff;
+    letter-spacing: 5px;
+}
+@media screen and (min-width: 320px) and (max-width: 369px){
+    .sec-main-shop{
+        border-radius: 0px;
+    }
+    .sec-main-shop h1{
+        font-size: 25px;
+    }
+    .sec-main-shop p{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 767px){
+    .sec-main-shop{
+        border-radius: 0px;
+    }
+    .sec-main-shop h1{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .sec-main-shop{
+        border-radius: 0px;
+    }
+    .sec-main-shop h1{
+        font-size: 45px;
+    }
+}
+
 footer{
     margin-top: 90px;
     width: 100%;
@@ -1979,8 +2233,24 @@ footer{
     background: #000000f5;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
     gap: 5px;
+}
+.logo-footer h1{
+    text-transform: uppercase;
+}
+.logo-footer h3{
+    margin-top: 20px;
+}
+.social-footer i{
+    margin: 10px;
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s;
+    border-radius: 10px;
+}
+.social-footer i:hover{
+    background: #ff000073;
+    padding: 10px;
 }

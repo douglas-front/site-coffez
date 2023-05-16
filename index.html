@@ -19,8 +19,8 @@
                 <span class="name-logo">Coffez</span>
                 <ul class="nav-links">
                     <li><a href="#">Menu</a></li>
-                    <li><a href="#">Near me</a></li>
-                    <li><a href="#">Rewards</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cards-info">Cards</a></li>
                     <li><a href="#">sale</a></li>
                 </ul>
                 <button id="btn-login-header" class="login-btn">Login</button>
@@ -35,8 +35,8 @@
                     <div id="content-m" class="content-mobile">
                         <ul class="nav-links-mobile">
                             <li><a href="#">Menu</a></li>
-                            <li><a href="#">Near me</a></li>
-                            <li><a href="#">Rewards</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#cards-info">Cards</a></li>
                             <li><a href="#">sale</a></li>
 
                             <button id="btn-login-header-mobile" class="login-btn-mobile">Login</button>
@@ -114,7 +114,7 @@
                 <div id="cards-option1">
                     <button id="card1" class="card1">
                         <img src="card1.jpg" alt="IMG">
-                        <h1>Coffee Chocolte</h1>
+                        <h1>Coffee Chocolate</h1>
                         <p class="card1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur expedita reprehenderit ea labore sequi vel quasi commodi id est sunt minima distinctio iure recusandae, dignissimos dicta velit nulla nisi.</p>
                     </button>
                     <!-- card2 -->
@@ -126,7 +126,7 @@
                     <!-- card3 -->
                     <button id="card3" class="card3">
                         <img src="card3.jpg" alt="IMG">
-                        <h1>Coffee Hortela</h1>
+                        <h1>Coffee Mint</h1>
                         <p class="card3-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aspernatur expedita reprehenderit ea labore sequi vel quasi commodi id est sunt minima distinctio iure recusandae, dignissimos dicta velit nulla nisi.</p>
                     </button>
                 </div>
@@ -152,7 +152,7 @@
                 </div>
             </section>
 
-            <section class="informative">
+            <section id="about" class="informative">
                 <div id="sec-informative-div" class="sec-informative-div">
                     <div class="content-iformative">
                         <h1>Welcome to Coffez</h1>
@@ -169,12 +169,50 @@
                     <img src="info.jpg" alt="">
                 </div>
             </section>
+
+            <section id="cards-info" class="cards-info">
+                <div class="card-info1">
+                    <h1>Sale</h1>
+                    <i class="fas fa-dollar"></i>
+                    <p>shop and see prices in our online store
+                        <br> link below
+                    </p>
+                </div>
+
+                <div class="card-info2">
+                    <h1>Social</h1>
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Visit our instagram for more information
+                        <br>link below
+                    </p>
+                </div>
+
+                <div class="card-info3">
+                    <h1>Developer</h1>
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Developed by: Douglas Rodrigues</p>
+                </div>
+            </section>
+
+            <section class="sec-main-shop">
+                <h1>do your shopping!</h1>
+                <p>click the button to go to our sales page!</p>
+                <button>Sale</button>
+            </section>
     </main>
 
     <footer>
-        <h1>Coffez</h1>
-        <h3>&copy; 2023 all direct's reserved</h3>
-        <h3>desenvolvido por : Douglas Rodrigues</h3>
+        <div class="logo-footer">
+            <h1>Coffez </h1>
+            <h3>&copy; 2023 all direct's reserved</h3>
+            <h3>desenvolvido por : Douglas Rodrigues</h3>
+        </div>
+        <div class="social-footer">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://github.com/douglas-front" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
     </footer>
     <script src="app.js"></script>
 </body>

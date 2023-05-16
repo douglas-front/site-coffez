@@ -112,7 +112,7 @@ function cards (){
     divCards1.classList.toggle("cards-option1-off")
     divCards2.classList.toggle("cards-option2-on")
 }
-let time = setInterval(cards, 10000)
+let time = setInterval(cards, 15000)
 
 setTimeout(function(){
     clearInterval(time)
